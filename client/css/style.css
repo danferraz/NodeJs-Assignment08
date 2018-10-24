@@ -1,0 +1,78 @@
+body{
+    background-image: url("../images/vintage1.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color:#00C5CD;
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    }
+    
+    .calculator{ 
+        
+        padding: 60px 60px 60px 60px; /* -top -right -bottom -left    */
+        background-color: rgba(255, 255, 255, 0.719);
+        border: rgba(39, 118, 121, 0.664) 3px solid;
+        border-radius: 1.2rem;
+        margin-left: auto;
+        margin-top: auto;
+        margin-right: auto;
+        width: 40%;
+        display: block;
+        font-size: 24px;        
+    }
+    
+    #resultModal{
+        font-size: 20px; 
+    }
+    
+    .workingDayInput{
+        width: 120px;
+        text-align: end;
+        height: 30px; 
+
+    }
+    
+    .CalculateButton{
+        margin-top: 30px;
+    }
+    
+    .button{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 22px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    
+    .header {
+        /* background-image: url("../images/gold-wallpaper2.jpg"); /* Set backgroung image in header */ 
+        padding: 30px; /* Padding for the header */
+        top: 0;
+        right: 0;
+        opacity: 0.5;
+        width: 100%;
+        font-family: menu;
+        font-size: xx-large;
+    }
+    
+    h1{
+        color: #333a41;
+        text-align: center;
+        padding: 30px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-weight: bolder;
+    }
+
+    .card{
+        visibility: visible;
+    }
+    
+    .footer {
+        /* background-image: url("../images/vintage3.jpg"); /* Set backgroung image in footer */
+        background-color: #2c3136;
+        position: fixed; /* The footer is positioned relative to the browser window */
+        left: 0; /* Set footer from the left at 0px */
+        bottom: 0; /* Set footer from the bottom at 0px */
+        width: 100%; /* Set withd to 100% */
+        color: white; /* Set the text color */
+        text-align: right; /* set the text alignment to right */
+    }

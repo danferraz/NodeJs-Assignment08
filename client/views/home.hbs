@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- To ensure proper rendering and touch zooming for all devices -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <!-- Local css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="images/cent1.png" type="image/gif" sizes="12x12">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Pennies For Payuuu</title>
+</head>
+
+<body>
+    <header class="header"></header>
+
+    <h1>Pennies for Pay</h1>
+    <form action="calc" method="post" onsubmit="return calculatePenny();">
+        <div class="calculator" align="center">
+            <label for="workingDayInput">Working Days </label>
+            <input type="text" id="workingDayInput" name="workingDayInput" class="workingDayInput" 
+                   onkeypress="return IsNumeric(event);" required>
+                   
+            <div class="CalculateButton">
+                <!-- data-toggle="modal" data-target="#resultModal" onclick="calculatePenny();" -->
+                <input type="submit" class="btn btn-secondary button" value="Calculate">
+                <input type="reset" class="btn btn-secondary button" value="Refresh">
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+                
+            </ul>
+            <span></span>
+        </div>
+    </form>
+
+   
+
+    <footer class="footer">PROG8165: Assignment 8</footer>
+    <!-- jQuery, javascript and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
